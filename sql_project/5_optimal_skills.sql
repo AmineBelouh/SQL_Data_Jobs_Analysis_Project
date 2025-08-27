@@ -15,5 +15,5 @@ GROUP BY
 HAVING
     COUNT(job_postings.job_id) > 10
 ORDER BY
-    avg_salary DESC,
-    postings_count DESC;
+    postings_count DESC,
+    avg_salary DESC;
